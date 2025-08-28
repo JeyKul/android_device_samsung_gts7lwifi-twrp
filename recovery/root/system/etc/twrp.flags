@@ -43,3 +43,4 @@ odm                 /odm         erofs       ro                                 
 
 # USB-OTG Points
 /usb-otg	        vfat		 /dev/block/sde1	/dev/block/sde			     flags=display="USB-OTG";storage;wipeingui;removable
+/external_sd		    vfat	  /dev/block/mmcblk0p1	/dev/block/mmcblk0	flags=storage;wipeingui;removable
